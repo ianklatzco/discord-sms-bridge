@@ -14,9 +14,7 @@ can be easily modified to just a single channel.
 **DON'T make this a public repo or fork it publicly.**
 your twilio and discord secret keys will be publicly exposed (bad)
 
-store them in shell environment variables or use a private repo or don't push
-
-this to a public github repo.
+store them in shell environment variables or use a private repo or don't push this to a public github repo.
 
 ## usage
 
@@ -32,3 +30,5 @@ this to a public github repo.
 debug problems w ```heroku logs```
 
 or shoot me a message on twitter. feedback's appreciated!
+
+thanks to zoe helding for her help.
