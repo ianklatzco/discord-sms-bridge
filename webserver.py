@@ -6,7 +6,7 @@ import twilio.twiml
 import requests
 import json
 
-channelID = XXXXXXXXXXXXXXXXXX # 18-digit number
+channelID = XXXXXXXXXXXXXXXXXX # channel to send texts to. enable dev mode on discord and right-click on the channel: "Copy ID"
 botToken  = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 botName   = "sms-bot" # doesn't have to be the real bot name, just for user-agent
 yourUrl   = "http://some.url" # idk what this is supposed to be. it's for user agent.
