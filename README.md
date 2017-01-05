@@ -10,6 +10,7 @@ can be easily modified to just a single channel.
 
 * requires a verified account (ie, add a credit card) in heroku
 * and a non-trial account (ie, put $20 in and buy a $1/mo phone #) in twilio
+* you'll need to keep heroku alive somehow, or else it'll regularly sleep. i'm using python http gets every 15m via a crontask running on an aws free tier, though you could probably host the whole thing on aws free tier.
 
 **DON'T make this a public repo or fork it publicly.**
 your twilio and discord secret keys will be publicly exposed (bad)
